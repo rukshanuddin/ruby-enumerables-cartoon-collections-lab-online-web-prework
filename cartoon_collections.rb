@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 #integers.each_with_index do |num, idx|
     #puts "value #{num} has index #{idx}"
-end
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
