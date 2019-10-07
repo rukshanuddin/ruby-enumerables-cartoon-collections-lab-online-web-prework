@@ -1,7 +1,6 @@
 def roll_call_dwarves(dwarves)# code an argument here
-    dwarves.each_with_index do |dwarf, num|
-      puts "#{num+1}. #{dwarf}"
-    end
+    dwarves.each_with_index {|dwarf, num|
+      puts "#{num+1}. #{dwarf}"}
 end
 #integers.each_with_index do |num, idx|
     #puts "value #{num} has index #{idx}"
