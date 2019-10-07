@@ -8,7 +8,6 @@ end
 
 def long_planeteer_call(planeteer_calls)
   planeteer_calls.keep_if {|a| a.length < 5}
-  planeteer_calls.empty?
 end
 
 def find_the_cheese# code an argument here
